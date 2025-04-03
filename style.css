@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: brown;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid white; /* Borda branca */
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input {
+  background: transparent;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+button {
+  background: white;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+  background: lightgray;
+}
